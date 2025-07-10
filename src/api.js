@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://144.24.107.250:8000",
+  // baseURL: "https://144.24.107.250:8000",
+  baseURL:"https://desktop-jets-flashing-please.trycloudflare.com"
   // baseURL: "http://localhost:8000", // FastAPI backend URL
  // FastAPI backend URL
 });
